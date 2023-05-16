@@ -4,3 +4,6 @@ members = [
   "libssh-rs"
 ]
 resolver = "2"
+
+[patch.crates-io]
+"openssl-src" = { path = "./openssl-src-hack" }
